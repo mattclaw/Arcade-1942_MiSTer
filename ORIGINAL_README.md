@@ -24,23 +24,24 @@ This work has two separate parts:
 
 The FPGA clone uses the following modules:
 
-JT12: For YM2203 sound synthesis. From the same author.
-MC6809 from Greg Miller
-T80: originally from Daniel Wallner, with edits from Alexey Melnikov (Mister)
-hybrid_pwm_sd.v copied from FPGAgen source code. Unknown author
+- JT12: For YM2203 sound synthesis. From the same author.
+- MC6809 from Greg Miller
+- T80: originally from Daniel Wallner, with edits from Alexey Melnikov (Mister)
+- hybrid_pwm_sd.v copied from FPGAgen source code. Unknown author
 
 ## Directory Structure
-
-| hdl/        | replica of original PCB schematics |
-| ver/        | simulation files for original PCB |
-| modules     | external files used |
-| doc         | documents related to original PCB |
-| rom         | script to convert from MAME rom files to the required format simulation files expect the rom files here |    
-| mist/       | MiST board version of Ghosts'n Goblins. Latest core version is located in this folder and called core.rbf |
-|mist/hdl    | Verilog files of the clone for MiST |
-|mist/doc    | documents related to MiST clone or MiST hardware |
-|mist/quartus | project to synthesize the clone |
-|mist/ver    | simulation files of MiST clone |
+| Directory Name | Description |
+| --- | --- |
+| hdl          | replica of original PCB schematics |
+| ver          | simulation files for original PCB |
+| modules      | external files used |
+| doc          | documents related to original PCB |
+| rom          | script to convert from MAME rom files to the required format simulation files expect the rom files here |    
+| mist/        | MiST board version of Ghosts'n Goblins. Latest core version is located in this folder and called core.rbf |
+| mist/hdl     | Verilog files of the clone for MiST |
+| mist/doc     | documents related to MiST clone or MiST hardware |
+| mist/quartus | project to synthesize the clone |
+| mist/ver     | simulation files of MiST clone |
 
 ## Clone Structure
 
@@ -65,13 +66,15 @@ You can press F12 to bring the OSD menu up. You can turn off music, or sound eff
 ## Sound
 
 Original filter for sound:
-    -high pass filter with cut-off freq. at 1.6Hz
-    -low pass filter with cut-off freq. at 32.3kHz
+- high pass filter with cut-off freq. at 1.6Hz
+- low pass filter with cut-off freq. at 32.3kHz
 
 ## Credits
 
 Jose Tejada Gomez. Twitter @topapate
+
 Project is hosted in http://www.github.com/jotego/jt_gng
+
 License: GPL3, you are obligued to publish your code if you use mine
 
 Special thanks to Greg Miller and Alexey Melnikov
