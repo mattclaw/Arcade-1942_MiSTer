@@ -30,17 +30,18 @@ T80: originally from Daniel Wallner, with edits from Alexey Melnikov (Mister)
 hybrid_pwm_sd.v copied from FPGAgen source code. Unknown author
 
 ## Directory Structure
-
-| hdl/        | replica of original PCB schematics |
-| ver/        | simulation files for original PCB |
-| modules     | external files used |
-| doc         | documents related to original PCB |
-| rom         | script to convert from MAME rom files to the required format simulation files expect the rom files here |    
-| mist/       | MiST board version of Ghosts'n Goblins. Latest core version is located in this folder and called core.rbf |
-|mist/hdl    | Verilog files of the clone for MiST |
-|mist/doc    | documents related to MiST clone or MiST hardware |
-|mist/quartus | project to synthesize the clone |
-|mist/ver    | simulation files of MiST clone |
+| Directory Name | Description |
+| --- | --- |
+| hdl          | replica of original PCB schematics |
+| ver          | simulation files for original PCB |
+| modules      | external files used |
+| doc          | documents related to original PCB |
+| rom          | script to convert from MAME rom files to the required format simulation files expect the rom files here |    
+| mist/        | MiST board version of Ghosts'n Goblins. Latest core version is located in this folder and called core.rbf |
+| mist/hdl     | Verilog files of the clone for MiST |
+| mist/doc     | documents related to MiST clone or MiST hardware |
+| mist/quartus | project to synthesize the clone |
+| mist/ver     | simulation files of MiST clone |
 
 ## Clone Structure
 
