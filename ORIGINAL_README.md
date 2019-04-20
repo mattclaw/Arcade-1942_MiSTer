@@ -24,10 +24,10 @@ This work has two separate parts:
 
 The FPGA clone uses the following modules:
 
-JT12: For YM2203 sound synthesis. From the same author.
-MC6809 from Greg Miller
-T80: originally from Daniel Wallner, with edits from Alexey Melnikov (Mister)
-hybrid_pwm_sd.v copied from FPGAgen source code. Unknown author
+- JT12: For YM2203 sound synthesis. From the same author.
+- MC6809 from Greg Miller
+- T80: originally from Daniel Wallner, with edits from Alexey Melnikov (Mister)
+- hybrid_pwm_sd.v copied from FPGAgen source code. Unknown author
 
 ## Directory Structure
 | Directory Name | Description |
@@ -66,13 +66,15 @@ You can press F12 to bring the OSD menu up. You can turn off music, or sound eff
 ## Sound
 
 Original filter for sound:
-    -high pass filter with cut-off freq. at 1.6Hz
-    -low pass filter with cut-off freq. at 32.3kHz
+- high pass filter with cut-off freq. at 1.6Hz
+- low pass filter with cut-off freq. at 32.3kHz
 
 ## Credits
 
 Jose Tejada Gomez. Twitter @topapate
+
 Project is hosted in http://www.github.com/jotego/jt_gng
+
 License: GPL3, you are obligued to publish your code if you use mine
 
 Special thanks to Greg Miller and Alexey Melnikov
