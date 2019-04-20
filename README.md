@@ -36,4 +36,4 @@ ROM is not included. In order to use this arcade, you need to provide a correct 
 6) Place the rom file into root of SD card.
 
 ## Original README
-*Many things are irrelevant for MiSTer port:* [Full Text](./ORIGINAL_README.txt)
+*Many things are irrelevant for MiSTer port:* [Full Text](./ORIGINAL_README.md)
